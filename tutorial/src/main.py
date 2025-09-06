@@ -1,4 +1,6 @@
 from direct.showbase.ShowBase import ShowBase
+from panda3d.core import DirectionalLight
+
 class App(ShowBase):
     def __init__(self):
         super().__init__()
