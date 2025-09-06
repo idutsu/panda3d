@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtualenv
+venv/
+.env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / caches
+*.log
+*.tmp
+*.swp
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Panda3D キャッシュ
+*.bam          # Panda3D が生成するバイナリモデル
+*.bam.pz       # 圧縮版バイナリ
+models/*.egg   # ソースモデルを除外したい場合は調整
+*.pyc
+
+# Assets (必要に応じて)
+assets/tmp/
+assets/cache/
+
